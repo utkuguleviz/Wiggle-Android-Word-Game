@@ -1,0 +1,8 @@
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\classes\debug
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-c31063b35005aab5eaab949aefb9c661c6e7acf4.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-086a83fa05d3b33e948f4a1740fd6315696a6604.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-82dad0d699daa8e20119d7d079be9f7f4550f81d.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-3b7a60e5890ef46a9a310db22a8677316cac1e99.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-9bfffe523e37f6851291069e60dd937ef8cfc5be.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-06378353a7bc8564208ca9ae438675932b9cd261.jar
+C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-eb895c443bf3ca54e903377077f65ac8d59497b8.jar

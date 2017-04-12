@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tile"
+    >
+    <RelativeLayout
+        android:id="@+id/roominfomenu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/logout"/>
+    <Button
+        android:id="@+id/info"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/info"/>
+</RelativeLayout>
+
+    <ListView
+        android:id="@+id/gameroomlist"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/roominfomenu"
+        />
+</RelativeLayout><!-- From: file:/C:/Users/utku/Desktop/AndroidHw_3-4-3nisan/AndroidHw_3-4-3Nisan/app/src/main/res/layout/game_room.xml -->

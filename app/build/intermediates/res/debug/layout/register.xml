@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_tile"
+    >
+
+
+    <EditText
+        android:hint="Username"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/usernameeditreg"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+
+        />
+
+
+    <EditText
+        android:id="@+id/passeditreg"
+        android:hint="Password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:password="true"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/usernameeditreg"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/usernameeditreg"
+        android:background="@drawable/edittext"
+        />
+
+
+
+    <EditText
+        android:text=""
+        android:id="@+id/reentereditreg"
+        android:hint="Reenter your password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:password="true"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/passeditreg"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/passeditreg"
+
+        android:background="@drawable/edittext"
+        />
+
+
+    <EditText
+        android:id="@+id/emaileditreg"
+        android:layout_width="350dp"
+        android:hint="E-mail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:layout_below="@+id/reentereditreg"
+        android:layout_marginTop="25dp"
+        android:layout_alignLeft="@id/reentereditreg"
+
+        android:background="@drawable/edittext"
+        />
+
+    <Button
+        android:id="@+id/btnRegisterreg"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/emaileditreg"
+        android:layout_marginTop="25dp"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"/>
+    <Button
+        android:id="@+id/btnBackreg"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnRegisterreg"
+        android:layout_marginTop="25dp"
+        android:text="BACK"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/buttonshape"/>
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/utku/Desktop/AndroidHw_3-4-3nisan/AndroidHw_3-4-3Nisan/app/src/main/res/layout/register.xml -->

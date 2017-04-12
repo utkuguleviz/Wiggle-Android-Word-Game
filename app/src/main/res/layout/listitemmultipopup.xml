@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="6dp"
+    android:background="@drawable/multimessage_roundshape"
+
+    >
+
+    <ImageView
+        android:id="@+id/multimessage_winloss_image"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+
+        android:id="@+id/multimessage_score_point"
+        android:textSize="10sp"
+        android:layout_below="@id/multimessage_winloss_image"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/background_material_light"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+
+    <Button
+
+        android:id="@+id/multimessage_score_face"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/multimessage_score_point"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/face"
+        />
+
+    <Button
+
+        android:id="@+id/multimessage_score_twit"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_alignTop="@id/multimessage_score_face"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/multimessage_score_face"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/twitter"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\utku\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-086a83fa05d3b33e948f4a1740fd6315696a6604.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\exploded-aar\com.facebook.android\facebook\3.23.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6137cc76c67bce299955b79cf0758f853eacfefe">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-06378353a7bc8564208ca9ae438675932b9cd261.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-eb895c443bf3ca54e903377077f65ac8d59497b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-c31063b35005aab5eaab949aefb9c661c6e7acf4.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-82dad0d699daa8e20119d7d079be9f7f4550f81d.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\libs\twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-3b7a60e5890ef46a9a310db22a8677316cac1e99.jar" />
+    </item>
+    <item
+        jar="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\utku\Desktop\AndroidHw_3-4-3nisan\AndroidHw_3-4-3Nisan\app\build\intermediates\pre-dexed\debug\classes-9bfffe523e37f6851291069e60dd937ef8cfc5be.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:id="@+id/information"
+    android:background="@drawable/bg_tile"
+    >
+
+    <ImageView
+        android:id="@+id/user_inf"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/user_icon"
+
+        />
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:layout_toRightOf="@id/user_inf"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/background_material_light"
+        />
+
+    <ImageView
+        android:id="@+id/mail_inf"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/user_inf"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignLeft="@id/user_inf"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mail"
+
+        />
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_toRightOf="@+id/mail_inf"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/background_material_light"
+        />
+
+    <ImageView
+        android:id="@+id/experince_inf"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/mail_inf"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignLeft="@id/mail_inf"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/experience"
+
+        />
+
+    <TextView
+        android:id="@+id/experienceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:layout_toRightOf="@id/experince_inf"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/background_material_light"
+        />
+
+
+    <ImageView
+        android:id="@+id/level_inf"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/experince_inf"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignLeft="@id/experince_inf"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/level_icon"
+
+        />
+    <TextView
+        android:id="@+id/levelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:layout_toRightOf="@id/level_inf"
+        android:layout_below="@id/experienceText"
+        android:layout_alignTop="@id/level_inf"
+        android:layout_alignLeft="@id/experienceText"
+        android:textSize="30sp"
+        android:textColor="@color/background_material_light"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/levelText"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ok_icon"/>
+
+</RelativeLayout>

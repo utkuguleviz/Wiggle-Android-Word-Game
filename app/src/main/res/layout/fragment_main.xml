@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="utku.guleviz.anagram.androidproject.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/llWord"
+        android:background="@drawable/bg_tile"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+    
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvClues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/llWord"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/llWord" >
+
+    </ListView>
+
+</RelativeLayout>

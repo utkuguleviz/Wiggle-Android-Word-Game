@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+</LinearLayout><!-- From: file:/C:/Users/utku/Desktop/AndroidHw_3-4-3nisan/AndroidHw_3-4-3Nisan/app/src/main/res/layout/twitter_layout.xml -->

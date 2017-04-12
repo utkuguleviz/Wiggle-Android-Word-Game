@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:id="@+id/scorePopup"
+    android:background="@drawable/bg_tile"
+
+    >
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/awards"
+        />
+
+    <TextView
+
+        android:id="@+id/score_point"
+        android:layout_marginTop="300dp"
+        android:textSize="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/background_material_light"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    <Button
+        android:id="@+id/score_exit"
+        android:layout_height="90dp"
+        android:layout_width="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/action_exit_icon"/>
+
+    <Button
+
+        android:id="@+id/score_face"
+        android:layout_height="90dp"
+        android:layout_width="90dp"
+        android:layout_alignTop="@id/score_exit"
+        android:layout_toLeftOf="@+id/score_exit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/face"
+        />
+
+    <Button
+
+        android:id="@+id/score_twit"
+        android:layout_height="90dp"
+        android:layout_width="90dp"
+        android:layout_alignTop="@id/score_exit"
+        android:layout_toRightOf="@+id/score_exit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/twitter"
+        />
+
+
+
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/utku/Desktop/AndroidHw_3-4-3nisan/AndroidHw_3-4-3Nisan/app/src/main/res/layout/score.xml -->

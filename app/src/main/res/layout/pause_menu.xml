@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:id="@+id/popup_element"
+    android:background="@drawable/roundshape"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/pause_menu_start"
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/action_play_icon"/>
+
+        <Button
+            android:id="@+id/pause_menu_exit"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_toRightOf="@id/pause_menu_start"
+            android:layout_alignTop="@id/pause_menu_start"
+            android:background="@drawable/action_exit_icon"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

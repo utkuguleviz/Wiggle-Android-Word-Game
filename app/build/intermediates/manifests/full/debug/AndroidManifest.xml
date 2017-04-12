@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utku.guleviz.anagram.androidhw_3_4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wordicon"
+        android:label="Wiggle"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.wiggleScreen"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.singleMultiPlayer"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.SINGLEMULTIPLAYER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.LevelSelect"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.LEVELSELECT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.MainActivity"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.LoginScreen"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.LOGINSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.RegisterScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.REGISTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.multiRoomPanel"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.MULTIROOMPANEL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.MultiMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.MULTIMAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.FacebookActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/wordicon"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.FACEBOOKACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="utku.guleviz.anagram.androidproject.TwitterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/word"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/BarTheme" >
+            <intent-filter>
+                <action android:name="utku.guleviz.anagram.androidproject.TWITTERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="t4jsample"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

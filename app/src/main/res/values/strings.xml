@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Wiggle </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lamp">Lamp</string>
+    <string name="action_solve">SOLVE(5)</string>
+    <string name="app_id">936609876390870</string>
+
+</resources>
